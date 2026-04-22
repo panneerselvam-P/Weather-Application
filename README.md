@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with **React** and **Vite**. This application allows users to fetch real-time weather data for any city globally using the OpenWeatherMap API.
 
-![Weather App Preview](https://via.placeholder.com/800x400?text=Weather+App+Preview)
+![Weather App Preview](https://leafy-meringue-bd5757.netlify.app/)
 
 ## 🚀 Features
 
