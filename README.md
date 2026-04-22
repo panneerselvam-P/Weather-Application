@@ -1,16 +1,73 @@
-# React + Vite
+# 🌦️ Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with **React** and **Vite**. This application allows users to fetch real-time weather data for any city globally using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+![Weather App Preview](https://via.placeholder.com/800x400?text=Weather+App+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+-   **Real-time Weather Data**: Get current temperature, humidity, and wind speed.
+-   **City Search**: Search for weather information by city name.
+-   **Dynamic Weather Icons**: Visual representation of weather conditions (clear, cloudy, rain, snow, etc.).
+-   **Detailed Information**: Displays latitude, longitude, and country code.
+-   **Responsive Design**: Optimized for various screen sizes.
+-   **Loading States**: Smooth user experience with loading indicators.
+-   **Error Handling**: Informative messages for invalid city names or network issues.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+-   **Frontend**: React 19, CSS3
+-   **Build Tool**: Vite
+-   **API**: [OpenWeatherMap API](https://openweathermap.org/api)
+-   **Icons**: Custom weather icons assets
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+To get a local copy up and running, follow these simple steps:
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/panneerselvam-P/Weather-Application.git
+    ```
+2.  **Navigate to the project directory**
+    ```bash
+    cd Weather-App
+    ```
+3.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+4.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+## 🔑 API Key Configuration
+
+The application uses an API key from OpenWeatherMap. Currently, it is hardcoded in `src/Weather.jsx`. 
+
+> [!IMPORTANT]
+> For production environments, it is recommended to use environment variables (`.env`) to store sensitive information like API keys.
+
+## 📁 Project Structure
+
+```text
+Weather-App/
+├── public/          # Static assets
+├── src/
+│   ├── assets/      # Image and icon assets
+│   ├── Weather.jsx  # Main application logic and UI
+│   ├── Weather.css  # Styling for the application
+│   └── main.jsx     # Entry point
+├── index.html       # HTML template
+├── package.json     # Project dependencies and scripts
+└── vite.config.js   # Vite configuration
+```
+
+## 👨‍💻 Designed By
+
+**Panneerselvam**
+
+---
+
